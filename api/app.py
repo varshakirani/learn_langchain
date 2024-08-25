@@ -23,7 +23,7 @@ openai_llm = ChatOpenAI(model="gpt-3.5-turbo")
 prompt1 = ChatPromptTemplate.from_template("Write me an haiku about {topic} with 20 words")
 
 llama_llm = Ollama(model="llama2")
-prompt2 = ChatPromptTemplate.from_template("Write me a poem about {topic} with 20 words ")
+prompt2 = ChatPromptTemplate.from_template("Write me a poem about {topic} for a 5 year child with 50 words ")
 
 add_routes(
     app,
